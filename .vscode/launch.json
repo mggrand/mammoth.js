@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Make markdown",
+            "program": "${workspaceFolder}\\lib\\start.js",
+            "args": [
+                ".\\Fakturierung.docx",
+                "--output-format=markdown"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Make html",
+            "program": "${workspaceFolder}\\lib\\start.js",
+            "args": [
+                ".\\Fakturierung.docx"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Make html -out",
+            "program": "${workspaceFolder}\\lib\\start.js",
+            "args": [
+                ".\\Fakturierung.docx",
+                "--output-dir=D:\\working\\OnlineHelpTest\\out"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "All",
+            "program": "${workspaceFolder}\\lib\\start.js",
+            "args": [
+                "--input-path=D:\\working\\OnlineHelpTest\\input",
+                "--output-dir=D:\\working\\OnlineHelpTest\\out",
+                "--style-map=D:\\working\\OnlineHelpTest\\style.txt"
+            ]
+        }
+
+    ]
+}
