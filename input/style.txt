@@ -1,0 +1,8 @@
+r[style-name='C1H Jump'] => a.link-innosolv
+p[style-name='Body Text'] => p.innosolv-body-text:fresh
+r[style-name='C1H Popup'] => a.link-innosolv-popup
+p[style-name='C1H Bullet'] => ul.innosolv-bullet > li:fresh
+p[style-name='Datenfeldtitel'] => dl.innosolv-datenfeldtitel > dt:fresh
+p[style-name='Datenfeldgruppe'] => dl.innosolv-datenfeldgruppe > dt:fresh
+p[style-name='Datenfeldbeschreibung'] => dl.innosolv-bullet > dt > dd
+p[style-name='Datenfeldtitel bei Gruppe'] => dl.innosolv-datenfeldgruppe > dt > dd > h5:fresh
